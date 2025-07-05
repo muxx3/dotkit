@@ -72,14 +72,14 @@
 
 > Dotkit uses a modular, easily extensible architecture inspired by Typecraft’s Crucible project. The main `run.sh` script orchestrates everything and sources smaller shell scripts:
 
---
-    `utils.sh` — Common helper functions and package manager detection
---
-    `install-dotfiles.sh` — Clones and stows your dotfiles
---
-    `install-tpm.sh` — Installs Tmux Plugin Manager
---
-    `install-flatpaks.sh` — Installs select Flatpak apps
+
+--    `utils.sh` — Common helper functions and package manager detection
+
+--    `install-dotfiles.sh` — Clones and stows your dotfiles
+
+--    `install-tpm.sh` — Installs Tmux Plugin Manager
+
+--    `install-flatpaks.sh` — Installs select Flatpak apps
 
 >Your packages are organized into logical categories in `packages.conf`, making them easy to customize.
 
